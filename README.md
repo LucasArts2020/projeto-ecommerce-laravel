@@ -43,7 +43,7 @@ Para executar este projeto localmente, siga os passos abaixo:
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git](https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git)
+    git clone (https://github.com/LucasArts2020/projeto-ecommerce-laravel.git)
     cd SEU-REPOSITORIO
     ```
 
