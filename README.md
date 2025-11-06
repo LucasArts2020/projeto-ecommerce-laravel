@@ -1,61 +1,100 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 🛍️ LaraStore: Um E-commerce com Laravel
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Um projeto de e-commerce (loja virtual) completo, construído do zero com Laravel 12, Blade e Tailwind CSS. Este projeto foi desenvolvido como parte de um estudo prático focado em dominar os fundamentos e o ecossistema moderno do Laravel.
 
-## About Laravel
+O projeto está sendo construído em fases, começando com uma simulação de dados (sem banco de dados) para focar no Roteamento, Views (Blade) e no sistema de File Storage, evoluindo para um sistema completo com banco de dados e autenticação.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## 📷 Screenshots (Em Desenvolvimento)
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+*(Aqui é um ótimo lugar para você colocar um print da página de detalhe do produto que fizemos!)*
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+![Layout da Página de Detalhe do LaraStore](caminho/para/sua/imagem.png)
 
-## Learning Laravel
+---
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## ✨ Funcionalidades Atuais (Fase 1 e 2 - Simulação)
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+* **Página de Listagem de Produtos (`/produtos`):** Um grid responsivo de produtos estilizado com Tailwind CSS.
+* **Página de Detalhe do Produto (`/produto/{id}`):** Uma rota dinâmica que exibe as informações detalhadas de um produto específico.
+* **Layout de E-commerce Moderno:** Design limpo inspirado em grandes lojas (como a Nike), focado em imagens e informações claras.
+* **Múltiplas Imagens por Produto:** O sistema de dados suporta um array de imagens para cada produto.
+* **Simulação de Banco de Dados:** Para focar no front-end e na arquitetura, os dados dos produtos são carregados de uma função central (`routes/web.php`), simulando a resposta de uma API ou Model.
+* **Laravel File Storage:** Uso correto do `storage:link` para servir as imagens dos produtos de forma segura e performática.
+* **Ambiente de Desenvolvimento Moderno:** Configurado com **Vite** para Hot Module Replacement (HMR) e compilação de assets (CSS/JS).
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+---
 
-## Laravel Sponsors
+## 🛠️ Tecnologias Utilizadas
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+Este projeto utiliza algumas das tecnologias mais modernas no ecossistema PHP:
 
-### Premium Partners
+* **[Laravel 12](https://laravel.com):** O framework PHP principal.
+* **[PHP 8.4+](https://www.php.net):** A linguagem base.
+* **[Blade](https://laravel.com/docs/12.x/blade):** O motor de templates super poderoso do Laravel.
+* **[Tailwind CSS](https://tailwindcss.com):** O framework CSS utility-first para estilização.
+* **[Vite](https://vitejs.dev):** O compilador de front-end (assets) de alta velocidade.
+* **[Git & GitHub](https://github.com):** Para versionamento de código.
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+---
 
-## Contributing
+## 🚀 Como Rodar o Projeto
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Para executar este projeto localmente, siga os passos abaixo:
 
-## Code of Conduct
+1.  **Clone o repositório:**
+    ```bash
+    git clone [https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git](https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git)
+    cd SEU-REPOSITORIO
+    ```
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+2.  **Instale as dependências do PHP (Composer):**
+    ```bash
+    composer install
+    ```
 
-## Security Vulnerabilities
+3.  **Instale as dependências do Node.js (NPM):**
+    ```bash
+    npm install
+    ```
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+4.  **Configure o Ambiente:**
+    * Copie o arquivo `.env.example` para `.env`.
+        ```bash
+        cp .env.example .env
+        ```
+    * Gere a chave da aplicação:
+        ```bash
+        php artisan key:generate
+        ```
 
-## License
+5.  **Crie o Link Simbólico de Armazenamento:**
+    * *(Este passo é CRUCIAL para as imagens dos produtos aparecerem!)*
+    ```bash
+    php artisan storage:link
+    ```
+    * *(Nota: Você precisará adicionar suas próprias imagens de produto na pasta `storage/app/public/produtos`)*
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+6.  **Execute os servidores (em dois terminais separados):**
+
+    * **Terminal 1 (Vite):** Compila o Tailwind CSS e o JavaScript.
+        ```bash
+        npm run dev
+        ```
+    * **Terminal 2 (Laravel):** Executa o servidor principal.
+        ```bash
+        php artisan serve
+        ```
+
+7.  **Acesse a aplicação:**
+    Abra seu navegador e visite `http://localhost:8000`.
+
+---
+
+## 🗺️ Próximos Passos (Roadmap)
+
+Este projeto está em evolução. Os próximos passos planejados são:
+
+* [ ] **Fase 2 (Real):** Migrar a simulação de dados para um banco de dados **MySQL** ou **PostgreSQL** real, usando **Migrations** e **Models Eloquent**.
+* [ ] **Fase 3:** Implementar a funcionalidade de "Adicionar ao Carrinho" usando a **Sessão** do Laravel.
+* [ ] **Fase 4:** Criar o sistema de **Autenticação de Usuários** (Login/Registro) com o **Laravel Breeze**.
+* [ ] **Fase 5:** Implementar o Checkout e o sistema de Pedidos.
