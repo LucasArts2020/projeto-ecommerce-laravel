@@ -12,11 +12,11 @@
 
         <div class="grid grid-cols-2 gap-4">
 
-            {{-- Fazemos um loop no nosso NOVO array de imagens --}}
-            @foreach ($produto['imagens'] as $imagem)
+            @foreach ($produto->imagens as $imagem)
                 <div class="bg-gray-100 rounded-lg">
-                    <img src="{{ asset('storage/' . $imagem) }}"
-                         alt="Imagem do {{ $produto['nome'] }}"
+
+                    <img src="{{ asset('storage/'. $imagem) }}"
+                         alt="Imagem do {{ $produto->nome }}"
                          class="w-full h-auto object-cover rounded-lg">
                 </div>
             @endforeach
@@ -40,7 +40,7 @@
             <div class="mb-8">
                 <h3 class="text-lg font-bold text-gray-900 mb-4">Tamanho</h3>
 
-                {{-- Criamos um grid para os botões de tamanho --}}
+
                 <div class="grid grid-cols-5 gap-3">
                     @foreach ($produto['tamanhos'] as $tamanho)
                         <button class="border border-gray-300 rounded-md py-3 px-4 text-center text-gray-800 hover:border-black focus:border-black focus:outline-none">
