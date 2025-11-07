@@ -14,8 +14,8 @@
 
             <div class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl">
 
-                <a href="/produto/{{ $produto['id'] }}">
-                    <img src="{{ asset($produto->imagens[0]) }}"
+                <a href="/produto/{{ $produto->id }}">
+                    <img src="{{ asset('storage/'. $produto->imagens[0]) }}"
                          alt="{{ $produto->nome }}"
                          class="w-full h-56 object-cover">
                 </a>

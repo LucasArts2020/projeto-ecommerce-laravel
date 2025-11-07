@@ -17,7 +17,7 @@
         <div class="flex gap-6">
             <a href="/" class="text-gray-700 hover:text-blue-500">Home</a>
             <a href="/produtos" class="text-gray-700 hover:text-blue-500">Produtos</a>
-            <a href="/carrinho" class="text-gray-700 hover:text-blue-500">Carrinho</a>
+            <a href="{{ route('carrinho.index') }}" class="text-gray-700 hover:text-blue-500">Carrinho</a>
         </div>
     </nav>
 </header>

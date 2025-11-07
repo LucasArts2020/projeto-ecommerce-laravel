@@ -51,9 +51,14 @@
             </div>
 
 
-            <a href="#" class="w-full bg-black text-white text-center py-4 rounded-lg font-medium text-lg hover:bg-gray-800">
+            <form action="{{ route('carrinho.adicionar', $produto->id) }}" method="POST">
+
+                @csrf
+
+                <button type="submit" class="w-full bg-black text-white text-center py-4 rounded-lg font-medium text-lg hover:bg-gray-800">
                 Adicionar ao Carrinho
-            </a>
+                </button>
+            </form>
 
         </div>
 

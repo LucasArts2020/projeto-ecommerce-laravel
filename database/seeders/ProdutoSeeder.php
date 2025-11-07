@@ -22,7 +22,7 @@ class ProdutoSeeder extends Seeder
         $produtos = [
             [
                 'id'    => 1,
-                'nome'  => 'Camiseta Branca',
+                'nome'  => 'Camiseta Preta',
                 'preco' => 49.90,
 
                 'imagens' => [
@@ -48,7 +48,6 @@ class ProdutoSeeder extends Seeder
                 'id'    => 3,
                 'nome'  => 'Tênis Esportivo',
                 'preco' => 249.99,
-                // A CORREÇÃO ESTÁ AQUI:
                 'imagens' => [
                     'tenis-1.jpg',
                     'tenis-2.jpg',
