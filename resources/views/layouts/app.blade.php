@@ -8,7 +8,7 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 
 </head>
-<body class="bg-white text-gray-800 font-sans">
+<body class="bg-gray-100 text-gray-800 font-sans">
 
 <header class="bg-white shadow-md">
     <nav class="container mx-auto p-4 flex justify-between items-center">
@@ -27,6 +27,10 @@
     @yield('content')
 
 </main>
+
+<footer class="bg-gray-800 text-white p-6 text-center mt-12">
+    <p>&copy; {{ date('Y') }} LaraStore. Todos os direitos reservados.</p>
+</footer>
 
 </body>
 </html>

@@ -53,7 +53,7 @@
                 <p class="text-3xl font-bold text-gray-900">
                     Total do Pedido: R$ {{ number_format($total, 2, ',', '.') }}
                 </p>
-                <a href="#" class="inline-block mt-6 bg-green-500 text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-green-600">
+                <a href="{{ route('checkout.index') }}" class="inline-block mt-6 bg-green-500 ...">
                     Finalizar Compra
                 </a>
             </div>
