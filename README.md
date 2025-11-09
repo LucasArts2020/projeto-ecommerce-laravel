@@ -6,8 +6,8 @@ O projeto está sendo construído em fases, começando com uma simulação de da
 
 ## 📷 Screenshots (Em Desenvolvimento)
 
-![Layout da Página de Detalhe do LaraStore](<img width="1114" height="842" alt="image" src="https://github.com/user-attachments/assets/7df96b03-6912-4639-af01-84c13dac1979" />
-)
+<img width="1215" height="882" alt="Image" src="https://github.com/user-attachments/assets/3a4a9585-ec61-4f7b-ac90-e77d7ee24c40" />
+
 
 ---
 
