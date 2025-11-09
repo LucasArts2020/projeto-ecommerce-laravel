@@ -15,7 +15,7 @@
             @foreach ($produto->imagens as $imagem)
                 <div class="bg-gray-100 rounded-lg">
 
-                    <img src="{{ asset('storage/'. $imagem) }}"
+                    <img src="{{ $imagem }}"
                          alt="Imagem do {{ $produto->nome }}"
                          class="w-full h-auto object-cover rounded-lg">
                 </div>

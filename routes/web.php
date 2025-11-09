@@ -1,11 +1,13 @@
 <?php
 
-use App\Models\Produto; // <-- Importa o Model
+use App\Models\Produto;
 use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', function () {
-    return view('home');
+    $produtos = Produto::latest()->take(4)->get();
+    return view('home', compact('produtos'));
+
 });
 
 
