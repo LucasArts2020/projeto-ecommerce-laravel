@@ -8,7 +8,8 @@ O projeto está sendo construído em fases, começando com uma simulação de da
 
 *(Aqui é um ótimo lugar para você colocar um print da página de detalhe do produto que fizemos!)*
 
-![Layout da Página de Detalhe do LaraStore](caminho/para/sua/imagem.png)
+![Layout da Página de Detalhe do LaraStore](<img width="1114" height="842" alt="image" src="https://github.com/user-attachments/assets/7df96b03-6912-4639-af01-84c13dac1979" />
+)
 
 ---
 
