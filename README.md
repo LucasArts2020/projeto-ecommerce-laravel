@@ -6,8 +6,6 @@ O projeto está sendo construído em fases, começando com uma simulação de da
 
 ## 📷 Screenshots (Em Desenvolvimento)
 
-*(Aqui é um ótimo lugar para você colocar um print da página de detalhe do produto que fizemos!)*
-
 ![Layout da Página de Detalhe do LaraStore](<img width="1114" height="842" alt="image" src="https://github.com/user-attachments/assets/7df96b03-6912-4639-af01-84c13dac1979" />
 )
 
@@ -91,11 +89,3 @@ Para executar este projeto localmente, siga os passos abaixo:
 
 ---
 
-## 🗺️ Próximos Passos (Roadmap)
-
-Este projeto está em evolução. Os próximos passos planejados são:
-
-* [ ] **Fase 2 (Real):** Migrar a simulação de dados para um banco de dados **MySQL** ou **PostgreSQL** real, usando **Migrations** e **Models Eloquent**.
-* [ ] **Fase 3:** Implementar a funcionalidade de "Adicionar ao Carrinho" usando a **Sessão** do Laravel.
-* [ ] **Fase 4:** Criar o sistema de **Autenticação de Usuários** (Login/Registro) com o **Laravel Breeze**.
-* [ ] **Fase 5:** Implementar o Checkout e o sistema de Pedidos.
